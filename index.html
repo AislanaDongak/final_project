@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Терра · Ботсад — место, где природа играет</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <!-- ========== ШАПКА / МЕНЮ ========== -->
+  <header class="site-header">
+    <div class="logo">
+      <span class="logo-emoji">🌱</span>
+      <span class="logo-text">Терра · Ботсад</span>
+    </div>
+    <nav class="main-nav">
+      <a href="#identity" class="nav-link">О нас</a>
+      <a href="#afisha" class="nav-link">Афиша</a>
+      <a href="#plant" class="nav-link">Карточка растения</a>
+      <a href="#palette" class="nav-link">Палитра</a>
+      <a href="#settings" class="nav-link">Настройки</a>
+    </nav>
+  </header>
+
+  <main class="brandbook">
+
+    <!-- ========== СЕКЦИЯ: ИДЕНТИЧНОСТЬ ========== -->
+    <section id="identity" class="section">
+      <div class="hero">
+        <div class="hero-text">
+          <span class="hero-badge">🌿 Городской ботанический сад</span>
+          <h1 class="hero-title" id="display-name">Терра</h1>
+          <p class="hero-slogan" id="display-slogan">Земля. Забота. Тепло.</p>
+          <p class="hero-desc">
+            Дружелюбный и современный. Сад — это не скучно: здесь играют, учатся и отдыхают всей семьёй.
+            Мультяшные растения, яркие краски, образовательные программы — природа, которая улыбается.
+          </p>
+          <div class="hero-tags">
+            <span class="tag">👨‍👩‍👧 Семейный отдых</span>
+            <span class="tag">🎓 Образование</span>
+            <span class="tag">🎨 Игривость</span>
+          </div>
+        </div>
+        <div class="hero-visual" aria-hidden="true">
+          <!-- мультяшные растения на CSS -->
+          <div class="cartoon-plant cartoon-plant--1">
+            <div class="cartoon-leaf"></div>
+            <div class="cartoon-leaf"></div>
+            <div class="cartoon-pot"></div>
+            <div class="cartoon-face">◕‿◕</div>
+          </div>
+          <div class="cartoon-plant cartoon-plant--2">
+            <div class="cartoon-leaf"></div>
+            <div class="cartoon-leaf"></div>
+            <div class="cartoon-pot"></div>
+            <div class="cartoon-face">^‿^</div>
+          </div>
+          <div class="cartoon-plant cartoon-plant--3">
+            <div class="cartoon-leaf"></div>
+            <div class="cartoon-leaf"></div>
+            <div class="cartoon-pot"></div>
+            <div class="cartoon-face">•ᴗ•</div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ========== СЕКЦИЯ: АФИША ЭКСКУРСИЙ ========== -->
+    <section id="afisha" class="section">
+      <h1 class="section-title">Афиша экскурсий</h1>
+      <p class="section-desc">Ближайшие прогулки и занятия. Приходите всей семьёй — будет весело и познавательно!</p>
+
+      <div class="afisha-grid">
+
+        <article class="afisha-card">
+          <div class="afisha-emoji">🌅</div>
+          <div class="afisha-badge">Экскурсия</div>
+          <h3 class="afisha-title">Утренний сад: росы и ароматы</h3>
+          <p class="afisha-meta">📅 24 мая · 09:00–10:30</p>
+          <p class="afisha-meta">👥 Группа до 12 человек</p>
+          <p class="afisha-desc">Медленная прогулка по цветникам и оранжерее. Узнаем, как растения встречают утро — и почему они «просыпаются» раньше нас.</p>
+          <button class="btn btn-primary afisha-btn">Записаться</button>
+        </article>
+
+        <article class="afisha-card">
+          <div class="afisha-emoji">🍵</div>
+          <div class="afisha-badge">Мастер-класс</div>
+          <h3 class="afisha-title">Травяной чай: сбор и заваривание</h3>
+          <p class="afisha-meta">📅 25 мая · 16:00–18:00</p>
+          <p class="afisha-meta">👥 Группа до 10 человек</p>
+          <p class="afisha-desc">Собираем мяту, мелиссу и душицу, учимся заваривать и пробуем свежий чай. Отличный повод провести время с семьёй.</p>
+          <button class="btn btn-primary afisha-btn">Записаться</button>
+        </article>
+
+        <article class="afisha-card">
+          <div class="afisha-emoji">🌳</div>
+          <div class="afisha-badge">Прогулка</div>
+          <h3 class="afisha-title">Тенистые аллеи: история сада</h3>
+          <p class="afisha-meta">📅 26 мая · 12:00–13:30</p>
+          <p class="afisha-meta">👥 Группа до 15 человек</p>
+          <p class="afisha-desc">Как появился сад, какие деревья старше города и почему липы любят тень. Рассказываем так, чтобы было интересно и детям, и взрослым.</p>
+          <button class="btn btn-primary afisha-btn">Записаться</button>
+        </article>
+
+      </div>
+    </section>
+
+    <!-- ========== СЕКЦИЯ: КАРТОЧКА РАСТЕНИЯ ========== -->
+    <section id="plant" class="section">
+      <h1 class="section-title">Карточка растения</h1>
+      <p class="section-desc">Пример оформления этикетки на грядке и в каталоге — с мультяшным характером и понятным языком.</p>
+
+      <div class="plant-card">
+        <div class="plant-visual">
+          <div class="plant-illustration">
+            <div class="cartoon-plant cartoon-plant--big">
+              <div class="cartoon-leaf"></div>
+              <div class="cartoon-leaf"></div>
+              <div class="cartoon-pot"></div>
+              <div class="cartoon-face">◕‿◕</div>
+            </div>
+          </div>
+        </div>
+        <div class="plant-info">
+          <div class="plant-tag">🌱 Многолетнее травянистое</div>
+          <h2 class="plant-name">Мята перечная</h2>
+          <p class="plant-latin">Mentha × piperita</p>
+
+          <dl class="plant-props">
+            <div class="plant-prop">
+              <dt>Семейство</dt>
+              <dd>Яснотковые (Lamiaceae)</dd>
+            </div>
+            <div class="plant-prop">
+              <dt>Цветение</dt>
+              <dd>Июль — август</dd>
+            </div>
+            <div class="plant-prop">
+              <dt>Высота</dt>
+              <dd>30–70 см</dd>
+            </div>
+            <div class="plant-prop">
+              <dt>Уход</dt>
+              <dd>Полутень, влажная почва, обрезка после цветения</dd>
+            </div>
+          </dl>
+
+          <p class="plant-note">
+            🌱 Аромат ментола. Используется в чае и косметике. Найдите на грядке № 4 у восточной оранжереи — и не забудьте потереть листик!
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- ========== СЕКЦИЯ: ПАЛИТРА ========== -->
+    <section id="palette" class="section">
+      <h1 class="section-title">Палитра</h1>
+      <p class="section-desc">
+        Сочные, но сбалансированные цвета. Нажмите на переключатель — афиша, карточка растения и все элементы обновятся, а настройка сохранится после перезагрузки.
+      </p>
+
+      <div class="palette-switcher" role="group" aria-label="Переключатель палитры">
+        <button type="button" data-palette="warm" class="palette-btn active">Тёплая</button>
+        <button type="button" data-palette="cool" class="palette-btn">Холодная</button>
+        <button type="button" data-palette="neutral" class="palette-btn">Нейтральная</button>
+      </div>
+
+      <div class="live-preview" id="live-preview">
+        <div class="preview-swatch" style="background: var(--accent);"></div>
+        <div class="preview-text">
+          <strong id="preview-name">Терра</strong>
+          <span id="preview-slogan">Земля. Забота. Тепло.</span>
+        </div>
+      </div>
+
+      <div class="swatches">
+        <div class="swatch"><span class="swatch-color" style="background: var(--primary);"></span><span class="swatch-label">Primary</span></div>
+        <div class="swatch"><span class="swatch-color" style="background: var(--secondary);"></span><span class="swatch-label">Secondary</span></div>
+        <div class="swatch"><span class="swatch-color" style="background: var(--accent);"></span><span class="swatch-label">Accent</span></div>
+        <div class="swatch"><span class="swatch-color" style="background: var(--bg);"></span><span class="swatch-label">Background</span></div>
+        <div class="swatch"><span class="swatch-color" style="background: var(--text);"></span><span class="swatch-label">Text</span></div>
+      </div>
+    </section>
+
+    <!-- ========== СЕКЦИЯ: НАСТРОЙКИ ========== -->
+    <section id="settings" class="section">
+      <h1 class="section-title">Модуль настроек</h1>
+      <p class="section-desc">Согласованные поля. Изменения сохраняются в localStorage.</p>
+
+      <form class="settings-form" id="settings-form">
+        <div class="form-row">
+          <label for="input-name">Название</label>
+          <input type="text" id="input-name" name="name" value="Терра">
+        </div>
+        <div class="form-row">
+          <label for="input-slogan">Слоган</label>
+          <input type="text" id="input-slogan" name="slogan" value="Земля. Забота. Тепло.">
+        </div>
+        <div class="form-row">
+          <label for="input-palette">ID палитры</label>
+          <select id="input-palette" name="paletteId">
+            <option value="warm">warm (тёплая)</option>
+            <option value="cool">cool (холодная)</option>
+            <option value="neutral">neutral (нейтральная)</option>
+          </select>
+        </div>
+        <div class="form-row">
+          <label for="input-font">ID шрифта</label>
+          <select id="input-font" name="fontId">
+            <option value="terrra-sans">terrra-sans (современный)</option>
+            <option value="terrra-serif">terrra-serif (с рукописным акцентом)</option>
+            <option value="terrra-mono">terrra-mono (игривый)</option>
+          </select>
+        </div>
+        <div class="form-row">
+          <label for="input-font-setting">Настройка шрифта</label>
+          <input type="text" id="input-font-setting" name="fontSetting" value="дружелюбный · 1.5 interlineage">
+        </div>
+        <div class="form-row">
+          <label for="input-composition">ID композиции</label>
+          <input type="text" id="input-composition" name="compositionId" value="comp-01">
+        </div>
+        <div class="form-actions">
+          <button type="submit" class="btn btn-primary">Сохранить настройки</button>
+          <button type="button" id="reset-settings" class="btn btn-secondary">Сбросить</button>
+        </div>
+      </form>
+    </section>
+
+  </main>
+
+  <footer class="site-footer">
+    <p>🌱 Терра · городской ботанический сад · сад, где природа играет · команда 3 человека</p>
+  </footer>
+
+  <script src="js/settings.js"></script>
+  <script src="js/palette.js"></script>
+  <script src="js/app.js"></script>
+</body>
+</html>
